@@ -1,0 +1,144 @@
+body {
+	margin: 30px;
+}
+header > img {
+	display: inline;
+	vertical-align: middle;
+}
+header > h1 {
+	display: inline;
+	vertical-align: middle;
+	color: #355E3B;
+}
+
+/*for link "back to top"*/
+#top {
+    z-index: 100;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    width: 100px;
+    height: 40px;
+    border-radius: 50%;
+	border: 1px solid lightgray;
+	background-color: lightgray;
+	color: #355E3B;
+	text-decoration: none;
+	
+	/*alignment*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*font-family*/
+a, p, li, h1, h2, h3, h4, h5 {
+	font-family: Times New Roman, Serif, Sans Serif
+}
+
+a {
+	color: #355E3B;
+}
+/*link styles*/
+ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 10px;
+}
+nav {
+	width: 1200px;
+	border: 1px solid #355E3B; 
+	background-color: #355E3B;
+	text-align: center;
+}
+nav a:link {
+	text-decoration: none;
+	color: #C1E1C1;
+}
+nav a:visited {
+	color: #DAF7A6;
+}
+nav a:hover {
+	color: #93C572;
+}
+nav a:active {
+	color: #FFFFFF;
+}
+
+article {
+	color: #355E3B;
+	width: 1200px;
+}
+
+section {
+	text-align: center;
+	width: 1200px;
+}
+
+/*footer*/
+footer {
+	color: #C1E1C1;
+	background-color: #355E3B;
+}
+table {
+	width: 1200px;
+}
+#socmed {
+	width: 600px;
+}
+#channels {
+	width: 600px;
+}
+li > a {
+	display: inline-block;
+}
+.facebook {
+	background: url('../images/icons-sprite.png') no-repeat -59px -61px;
+	width: 51px;
+	height: 50px;
+}
+.facebook:hover {
+	background: url('../images/icons-sprite.png') no-repeat -60px -4px;
+	width: 50px;
+	height: 50px;
+}
+.twitter {
+	background: url('../images/icons-sprite.png') no-repeat -2px -61px;
+	width: 51px;
+	height: 50px;
+}
+.twitter:hover {
+	background: url('../images/icons-sprite.png') no-repeat -3px -4px;
+	width: 50px;
+	height: 50px;
+}
+.instagram {
+	background: url('../images/icons-sprite.png') no-repeat -176px -61px;
+	width: 51px;
+	height: 50px;
+}
+.instagram:hover {
+	background: url('../images/icons-sprite.png') no-repeat -177px -4px;
+	width: 50px;
+	height: 50px;
+}
+.crashcourse {
+	background: url('../images/biochannels-sprite.png') no-repeat 0px 0px;
+	width: 52px;
+	height: 52px;
+}
+.crashcourse:hover {
+	background: url('../images/biochannels-sprite.png') no-repeat 0px -52px;
+	width: 52px;
+	height: 52px;
+}
+.amoebasisters {
+	background: url('../images/biochannels-sprite.png') no-repeat -53px 0px;
+	width: 48px;
+	height: 50px;
+}
+.amoebasisters:hover {
+	background: url('../images/biochannels-sprite.png') no-repeat -52px -50px;
+	width: 48px;
+	height: 50px;
+}

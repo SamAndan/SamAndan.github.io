@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Manipu-Life</title>
+		
+		<meta charset="UTF-8"> 
+		<meta name="author" content="Samantha Andan"> 
+		<meta name="keywords" content="HTML"> 
+		<meta name="created" content="28-12-2021">
+		
+		<!--favicon-->
+		<link rel="icon" href="../images/ManipuLife.png" type="type/png">
+		<!--stylesheet-->
+		<link rel="stylesheet" type="text/css" href="../css/destinationpages.css">
+	</head>
+	
+	<body>
+		<!--back to top link-->
+		<aside>
+			<a href="page2.html" id="top">Back to Top</a>
+		</aside>
+		
+		<!--logo and webpage title-->
+		<header>
+			<img src="../images/ManipuLife.png" height=75px width=75px title="Logo">
+			<h1>Manipu-Life: How does Genetic Engineering work?</h1>
+		</header>
+		
+		<br>
+		
+		<!--navigation-->
+		<nav>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="page1.html">Definition and History</a></li>
+				<li><a href="page2.html">Procedure</a></li>
+				<li><a href="page3.html">Pros and Cons</a></li>
+				<li><a href="page4.html">Quarrel for its Existence</a></li>
+				<li><a href="resources.html">Resources Page</a></li>
+			</ul>
+		</nav>
+		
+		<!--basic steps of genetic engineering/insulin production-->
+		<section>
+			<h2>Genetic Engineering in its Basic Sense</h2>
+			<p>There are many processes involved in genetic engineering. But in its simplest form, like when making human insulin through the help of bacteria, genetic engineering has three steps.</p>
+			<ol>
+				<li>The gene of interest is "cut" from the DNA with the help of restriction enzymes. A plasmid (circular DNA) of a bacteria is also cut. The gene of interest is pasted in the plasmid by DNA ligase.</li>
+				<li>The recombinant plasmid is inserted into a bacteria. This process is made possible by shocks (like high temperature), forcing bacteria to take in the plasmid. The plasmid contains antibiotic resistance and so they are subjected to antibiotic (this would kill bacteria not containing plasmids.</li>
+				<li>Once the recombinant bacteria is separated, it will reproduce. When a large colony is formed, they will then be subjected to signals instructing the production of the target protein. Once made, the bacteria is cut open, then purified.</li>
+		</section>
+		
+		<!--video, autoplay with controls-->
+		<section id="video2">
+			<video width=400px height=250px autoplay controls muted> 
+				<source src="../mmfiles/genetic-engineering-process.mp4" type="video/mp4"> 
+			</video> 
+		</section>
+		
+		<br>
+		
+		<!--details of techniques in genetic engineering-->
+		<table id="page2">
+			<tr>
+				<th colspan="2" id="page2">Two Most Common Techniques Involved in Genetic Engineering</th>
+			</tr>
+			<tr>
+				<td id="page2">
+					<span>
+						<h4>CRISPR: Clustered Regularly Interspaced Short Palindromic Repeats</h4>
+						<p>The fastest and cheapest of the many gene editing tools, CRISPR is a naturally occuring defense mechanism of bacteria and archaeans against viruses. In the laboratory, scientists design a guide RNA matching the gene they want to edit. This RNA is attached to Cas-9, an enzyme that acts like molecular scissors. The enzyme enters the host cell with the RNA guiding it to the target gene. Once the gene is recognized, Cas-9 snips the portion of the DNA. Then, the cell will repair the DNA, most likely through non-homologous end-joining (which will likely result to mistakes, completely turning the damaged gene off). However, scientists who wish to change the gene can create a blueprint of the gene to be added to guide the cellular proteins in adding the lost nucleotides in a process called homology directed repair. </p>
+						<p>For a clearer explanation on CRISPR (and the source of the above information):</p>
+						<a href="https://youtu.be/6tw_JVz_IEc">How CRISPR lets you edit DNA - Andrea M. Henle</a>
+					</span>
+				</td>
+				<td id="page2">
+					<span width=600px>
+						<h4>PCR: Polymerase Chain Reaction</h4>
+						<p>You probably heard of the term "PCR Test", a test used to detect if someone caught the SARS-CoV-2 virus causing the global pandemic we are all in. But what is a PCR?</p>
+						<p>PCR is like a photocopy machine, it is used to make multiple copies of a targetted gene from an initial sample, a technique that makes DNA fingerprinting and pathogen-related studies and tests possible (biological techniques, like detection of a virus, rely on multiple samples of the DNA, something that cannot always be easily achieved). For it to work, the DNA is first unzipped with the help of heat. Primers will then bind to the DNA and a specific temperature is needed for it to bind right where the target gene is. DNA polymerase will then start on building the other strand needed for each original strand using nucleotides. The temperature for this step depends on what temperature will the polymerase work best. This process may be repeated until the amount of copies of the desired gene is reached.</p>
+						<p>For a clearer explanation on PCR (and the source of the above information):</p>
+						<a href="https://youtu.be/a5jmdh9AnS4">PCR (Polymerase Chain Reaction)</a>
+					</span>
+				</td>
+			</tr>
+		</table>
+		
+		<br>
+		<br>
+		
+		<!--footer-->
+		<footer>
+			<table id="footer">
+				<tr>
+					<th colspan="3" id="socmed">Contact Website Creator:</th>
+					<th colspan="2" id="channels">Channels That Might Help in Understanding Biology Better:</th>
+				</tr>
+				<tr>
+					<!--social media-->
+					<td>
+						<li><a href="https://www.facebook.com/samantha.marasiganandan">
+							<div class="facebook"></div>
+						</a></li>
+					</td>
+					<td>
+						<li><a href="https://twitter.com/presidenthideo">
+							<div class="twitter"></div>
+						</a></li>
+					</td>
+					<td>
+						<li><a href="https://instagram.com/retrxsam">
+							<div class="instagram"></div>
+						</a></li>
+					</td>
+					<!--additional image sprite/links to yt channels-->
+					<td>
+						<li><a href="https://youtube.com/c/crashcourse">
+							<div class="crashcourse"></div>
+						</a></li>
+					</td>
+					<td>
+						<li><a href="https://youtube.com/c/AmoebaSisters">
+							<div class="amoebasisters"></div>
+						</a></li>
+					</td>
+				</tr>
+			</table>
+		</footer>
+	</body>
+</html>

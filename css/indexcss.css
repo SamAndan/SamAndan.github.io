@@ -144,10 +144,8 @@ li > a {
 }
 
 /*animation of genetic engineering*/
-aside.animation {
-	float: right;
-	margin: 15px;
-	margin-right: 2px;
+td#foranim {
+	width: 950px;
 }
 aside.animation > h4 {
 	color: #355E3B;

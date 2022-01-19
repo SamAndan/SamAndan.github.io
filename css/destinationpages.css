@@ -172,14 +172,14 @@ section#imgandlink1 > a:active {
 }
 
 /*page 2*/
-section#page2files {
-	text-align: center;
-}
 section#video2 {
 	display: inline;
 }
 aside#page2 {
 	display: inline;
+}
+section#page2files {
+	text-align: center;
 }
 table#page2 {
 	width: 1200px;
@@ -211,6 +211,10 @@ section#opinion {
 aside#page4 {
 	text-align: center;
 }
+aside#page4 > div.animation {
+	margin-left: 475px;
+}
+
 /*resources page*/
 li > span {
 	font-style: italic;

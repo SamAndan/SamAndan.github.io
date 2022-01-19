@@ -65,9 +65,12 @@ nav a:active {
 	color: #FFFFFF;
 }
 
+h1 {
+	color: #355E3B;
+}
 article {
 	color: #355E3B;
-	width: 1200px;
+	width: 940px;
 }
 
 section {

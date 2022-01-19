@@ -200,17 +200,23 @@ article#ncbp {
 
 /*page 4*/
 section#opinion {
-	text-align: center;
+	float: right;
+	margin: 15px;
+	margin-right: 2px;
 }
 /*resources page*/
 li > span {
 	font-style: italic;
 }
 
+/*genetic engineering animation section*/
 aside.animation {
 	float: right;
 	margin: 15px;
 	margin-right: 2px;
+}
+aside.animation > h4 {
+	color: #355E3B;
 }
 div.animation {
 	background: url('../images/animationfinal.png') no-repeat 0 0;

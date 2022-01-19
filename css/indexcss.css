@@ -149,6 +149,9 @@ aside.animation {
 	margin: 15px;
 	margin-right: 2px;
 }
+aside.animation > h4 {
+	color: #355E3B;
+}
 div.animation {
 	background: url('../images/animationfinal.png') no-repeat 0 0;
 	width: 310px;

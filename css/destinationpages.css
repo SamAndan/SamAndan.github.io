@@ -178,6 +178,9 @@ section#video2 {
 table#page2 {
 	width: 1200px;
 }
+td#video2 {
+	width: 870px;
+}
 td#page2 {
 	vertical-align: top;
 	color: #355E3B;
@@ -208,9 +211,6 @@ li > span {
 }
 
 /*genetic engineering animation section*/
-td#foranim {
-	width: 870px;
-}
 aside.animation > h4 {
 	color: #355E3B;
 }

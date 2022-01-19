@@ -174,12 +174,15 @@ section#imgandlink1 > a:active {
 /*page 2*/
 section#video2 {
 	text-align: center;
+	display: inline;
+	margin: 10px;
+}
+aside#page2 {
+	display: inline;
+	margin: 10px;
 }
 table#page2 {
 	width: 1200px;
-}
-td#video2 {
-	width: 870px;
 }
 td#page2 {
 	vertical-align: top;

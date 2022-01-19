@@ -173,7 +173,7 @@ section#imgandlink1 > a:active {
 
 /*page 2*/
 section#video2 {
-	display: inline;
+	text-align: center;
 }
 table#page2 {
 	width: 1200px;
@@ -202,12 +202,6 @@ article#ncbp {
 section#opinion {
 	text-align: center;
 }
-aside#page4 {
-	text-align: center;
-}
-aside#page4 > div.animation {
-	margin-left: 475px;
-}
 
 /*resources page*/
 li > span {
@@ -215,6 +209,11 @@ li > span {
 }
 
 /*genetic engineering animation section*/
+aside.animation {
+	float: left;
+	margin: 10px;
+	margin-left: 2px;
+}
 aside.animation > h4 {
 	color: #355E3B;
 }

@@ -24,7 +24,7 @@ header > h1 {
 	background-color: lightgray;
 	color: #355E3B;
 	text-decoration: none;
-	
+
 	/*alignment*/
 	display: flex;
 	align-items: center;
@@ -47,7 +47,7 @@ ul li {
 }
 nav {
 	width: 1200px;
-	border: 1px solid #355E3B; 
+	border: 1px solid #355E3B;
 	background-color: #355E3B;
 	text-align: center;
 }
@@ -141,4 +141,21 @@ li > a {
 	background: url('../images/biochannels-sprite.png') no-repeat -52px -50px;
 	width: 48px;
 	height: 50px;
+}
+
+/*animation of genetic engineering*/
+aside.animation {
+	float: right;
+	margin: 15px;
+	margin-right: 2px;
+}
+div.animation {
+	background: url('../images/animationfinal.png') no-repeat 0 0;
+	width: 310px;
+	height: 250px;
+	animation: genEng 3s steps(13) infinite;
+}
+ @keyframes genEng{
+	from{background-position-x:0px;}
+	to{background-position-x:-3900px;}
 }

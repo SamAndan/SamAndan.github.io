@@ -175,12 +175,6 @@ section#imgandlink1 > a:active {
 section#video2 {
 	display: inline;
 }
-aside#page2 {
-	display: inline;
-}
-section#page2files {
-	text-align: center;
-}
 table#page2 {
 	width: 1200px;
 }

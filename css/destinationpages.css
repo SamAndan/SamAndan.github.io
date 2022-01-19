@@ -172,14 +172,14 @@ section#imgandlink1 > a:active {
 }
 
 /*page 2*/
-section#video2 {
+section#page2files {
 	text-align: center;
+}
+section#video2 {
 	display: inline;
-	margin: 10px;
 }
 aside#page2 {
 	display: inline;
-	margin: 10px;
 }
 table#page2 {
 	width: 1200px;
@@ -206,6 +206,9 @@ article#ncbp {
 
 /*page 4*/
 section#opinion {
+	text-align: center;
+}
+aside#page4 {
 	text-align: center;
 }
 /*resources page*/
